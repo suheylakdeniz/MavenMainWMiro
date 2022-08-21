@@ -52,6 +52,7 @@ public class OBSSSearchStepdefs {
     public void iShouldSeeObssThumbnailIsSeen() throws Throwable {
         imdbHomePage.clickButtonCssSelector(obssFooterLogo);
         Assert.assertEquals(obssFooterLogo,"//div/img[@alt='obss-footer-logo']");
+        //TODO
     }
 }
 
